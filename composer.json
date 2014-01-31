@@ -1,0 +1,41 @@
+{
+    "name": "jhhello/remote-logger",
+    "type":"magento-module",
+    "description": "Jh Remote Logger ",
+    "authors": [
+        {
+            "name": "Ben Lill",
+            "email": "ben@wearejh.com"
+        },
+        {
+            "name": "Aydin Hassan",
+            "email": "aydin@wearejh.com"
+        },
+        {
+            "name": "John Knowles",
+            "email": "john@wearejh.com"
+        },
+        {
+            "name": "Adam Patterson",
+            "email": "adam@wearejh.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "dev-master"
+    },
+    "extra": {
+        "map": [
+            ["src/code",                                "app/code/local/Jh/Boilerplate"],
+            ["src/Jh_RemoteLogger.xml",                 "app/etc/modules/Jh_RemoteLogger.xml"],
+            ["src/frontend/layout/jh_remotelogger.xml", "app/design/frontend/boilerplate/default/layout/jh_remotelogger.xml"],
+            ["src/frontend/template",                   "app/design/frontend/boilerplate/default/template"]
+        ]
+    }
+}

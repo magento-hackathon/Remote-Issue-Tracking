@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jh_RemoteLogger>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Jh_RemoteLogger>
+    </modules>
+</config>
