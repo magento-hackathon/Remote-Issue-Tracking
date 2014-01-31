@@ -34,8 +34,7 @@
         "map": [
             ["src/code",                                "app/code/local/Jh/Boilerplate"],
             ["src/Jh_RemoteLogger.xml",                 "app/etc/modules/Jh_RemoteLogger.xml"],
-            ["src/frontend/layout/jh_remotelogger.xml", "app/design/frontend/boilerplate/default/layout/jh_remotelogger.xml"],
-            ["src/frontend/template",                   "app/design/frontend/boilerplate/default/template"]
+            ["src/frontend/layout/jh_remotelogger.xml", "app/design/frontend/boilerplate/default/layout/jh_remotelogger.xml"]
         ]
     }
 }
