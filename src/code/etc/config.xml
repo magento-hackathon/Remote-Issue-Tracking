@@ -6,4 +6,31 @@
         </Magehack_RemoteLogger>
     </modules>
 
+    <global>
+        <models>
+            <magehack_remotelogger>
+                <class>Magehack_RemoteLogger_Model</class>
+            </magehack_remotelogger>
+        </models>
+        <events>
+            <controller_front_init_before>
+                <observers>
+                    <magehack_remotelogger>
+                        <class>Magehack_RemoteLogger_Model_Observer</class>
+                        <method>setErrorHandler</method>
+                    </magehack_remotelogger>
+                </observers>
+            </controller_front_init_before>
+
+            <mage_run_exception>
+                <observers>
+                    <magehack_remotelogger>
+                        <class>Magehack_RemoteLogger_Model_Observer</class>
+                        <method>setErrorHandler</method>
+                    </magehack_remotelogger>
+                </observers>
+            </mage_run_exception>
+        </events>
+    </global>
+
 </config>
