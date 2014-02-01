@@ -1,5 +1,5 @@
 <?php
-class Jh_RemoteLogger_Model_Exception
+class Magehack_RemoteLogger_Model_Exception
 {
 
 }

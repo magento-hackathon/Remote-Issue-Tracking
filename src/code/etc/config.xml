@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Jh_RemoteLogger>
+        <Magehack_RemoteLogger>
             <version>0.1.0</version>
-        </Jh_RemoteLogger>
+        </Magehack_RemoteLogger>
     </modules>
 
 </config>

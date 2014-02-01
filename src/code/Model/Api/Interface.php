@@ -1,12 +1,12 @@
 <?php
 /**
- * Interface Jh_RemoteLogger_Model_Api_Interface
+ * Interface Magehack_RemoteLogger_Model_Api_Interface
  */
-interface Jh_RemoteLogger_Model_Api_Interface
+interface Magehack_RemoteLogger_Model_Api_Interface
 {
     /**
-     * @param Jh_RemoteLogger_Model_Data_Object $data
+     * @param Magehack_RemoteLogger_Model_Data_Object $data
      * @return mixed
      */
-    public function send(Jh_RemoteLogger_Model_Data_Object $data);
+    public function send(Magehack_RemoteLogger_Model_Data_Object $data);
 }

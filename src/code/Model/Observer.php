@@ -1,8 +1,8 @@
 <?php
 /**
- * Class Jh_RemoteLogger_Model_Observer
+ * Class Magehack_RemoteLogger_Model_Observer
  */
-class Jh_RemoteLogger_Model_Observer
+class Magehack_RemoteLogger_Model_Observer
 {
     /**
      * Set the default error handler

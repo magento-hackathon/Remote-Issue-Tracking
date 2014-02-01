@@ -1,7 +1,7 @@
 {
-    "name": "jhhello/remote-logger",
+    "name": "magehack/remote-logger",
     "type":"magento-module",
-    "description": "Jh Remote Logger ",
+    "description": "Remote Logger ",
     "authors": [
         {
             "name": "Ben Lill",
@@ -32,9 +32,9 @@
     },
     "extra": {
         "map": [
-            ["src/code",                                "app/code/local/Jh/Boilerplate"],
-            ["src/Magehack_Remotelogger.xml",                 "app/etc/modules/Magehack_RemoteLogger.xml"],
-            ["src/frontend/layout/magehack_remotelogger.xml", "app/design/frontend/boilerplate/default/layout/magehack_remotelogger.xml"]
+            ["src/code",                                        "app/code/community/Magehack/RemoteLogger"],
+            ["src/Magehack_Remotelogger.xml",                   "app/etc/modules/Magehack_RemoteLogger.xml"],
+            ["src/frontend/layout/magehack_remotelogger.xml",   "app/design/frontend/boilerplate/default/layout/magehack_remotelogger.xml"]
         ]
     }
 }

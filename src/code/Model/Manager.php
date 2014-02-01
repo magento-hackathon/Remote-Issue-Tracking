@@ -1,8 +1,8 @@
 <?php
 /**
- * Class Jh_RemoteLogger_Model_Manager
+ * Class Magehack_RemoteLogger_Model_Manager
  */
-class Jh_RemoteLogger_Model_Manager
+class Magehack_RemoteLogger_Model_Manager
 {
     /**
      * Array of adapters
