@@ -33,7 +33,7 @@
     "extra": {
         "map": [
             ["src/code",                                        "app/code/community/Magehack/RemoteLogger"],
-            ["src/Magehack_Remotelogger.xml",                   "app/etc/modules/Magehack_RemoteLogger.xml"],
+            ["src/Magehack_RemoteLogger.xml",                   "app/etc/modules/Magehack_RemoteLogger.xml"],
             ["src/frontend/layout/magehack_remotelogger.xml",   "app/design/frontend/boilerplate/default/layout/magehack_remotelogger.xml"]
         ]
     }
